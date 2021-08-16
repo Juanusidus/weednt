@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+<style>
+
+*{margin:0;
+padding: 0;
+border: 0;}
+
+.margin{
+border: 50% 0 ;
+
+}
+.parallax{
+    background: url(https://i.cdnraw.com/previews/downloads/d/9/m/p-wet-grass-9MSEwQupFF-1.jpg) repeat fixed 100% ;
+    text-align: center;
+    color: #FFF;
+    font-size: larger;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #000;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+    
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #000000;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  width: 25%;
+  max-width: 25%;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 35px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(177, 175, 175);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #FFF;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #FFF;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+#get-in-contact{
+    text-align: center;
+    font-family: "Poppins"
+
+}
+#email{
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+height: 35px;
+border:  #000;
+border-radius: 2px;
+border-width: 5px;
+margin-top:50px ;
+margin-bottom: 2.5px;
+font-family: "Poppins"
+}
+#get-in-contact input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  background-color:#000 ;
+  color: #FFF;
+  font-family: "Poppins"}
+
+
+h2, p {
+font-family: "Poppins";
+
+
+}
+
+
+.email-section{
+width: 50%;
+    background-color: #D3D3D3;
+    margin: 5% 25%;
+    font-family: "Poppins"
+}
+.email-container{
+width: 100%;
+background-color: black;
+font-family: "Poppins"
+;
+
+
+}
+
+.selling-point{
+color: #FFF;
+margin-left: 15%;
+
+}
+
+#fuel-img{
+    width:40px;
+
+}
+#video{
+    margin-left: 25%;
+}
+#pricing{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+ width: 90%;
+height: 300px;
+display: flex;
+flex-direction: row;
+margin-left:5% ;
+
+}
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  margin: 10px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+
+    
+
+  }
+  .product {
+    max-width: 300px;
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+#footer{
+width: 100%;
+height: 70px;
+background-color:lightgrey ;
+font-family: "Poppins";
+text-align: end;
+
+}
+
+
+@media (min-width: 300px )
+{   }
+
+
+
+
+</style>
+<html>
+  <header id="header">
+    <div class="container" >
+
+      <img id="header-img" class="logo" src="https://i.ibb.co/BLLcKkG/LOGO.png" alt="LOGO" > 
+
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="#home">Home</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#Pricing">Pricing</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+   </header>
+
+  <body> 
+      <div id="home"></div>
+<div class="margin"></div>
+<section class="parallax">
+<div class="parallax-inner">
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img id="parallax-img" src="https://i.ibb.co/BLLcKkG/LOGO.png" alt="LOGO">
+    <p id="email-link"> GET RID OF THE WEED AND LOOK COOL DOING IT</p>
+    <br>
+    <br>
+    <br>
+<div id="contact"></div>
+</div>
+</section>
+
+
+
+<div class="email-container">
+    
+    <br>
+    <br>
+ <div class="email-section">
+  <section id="get-in-contact">
+    
+   
+     <h2>Leave us your email and we will send you our full catalogue</h2>
+     <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get In Touch" class="btn" />
+     </form>
+  </section>
+  <div id="about"></div>
+ </div>
+ <br>
+ <br>
+ <br>
+</div>
+
+
+<section    class="selling-point">
+<div>
+    <img id="fuel-img" src="https://i.ibb.co/b6wg2ny/pngtree-vector-fuel-station-icon-png-image-4237403.jpg"> 
+<h2>Eficcency</h2>
+<p>Our Weed Eaters are fast, strong and cost-eficcient. For every liter of gasoline you get 1000 hours of use-time.  </p>
+</div>
+<div>
+    <img id="fuel-img" src="https://i.ibb.co/Kr1dVxw/cool-face.png"> 
+<h2>Coolness</h2>
+<p>At our company we apreciate the coolness over anything else and that's why we can say our machines are f***ing awesome.    </p>
+</div>
+<div>
+    <img id="fuel-img"  src="https://i.ibb.co/wr6VWK2/white-truck.png"> 
+<h2>Delivery</h2>
+<p>We are partnered with one of the fastest delivery companies on the whole country and you will get your product ASAP.      </p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</section>
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/S1opkMO1w4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<div id="Pricing"></div>
+<br>
+<br>
+<br>
+<br>
+
+
+<div id="pricing">
+    <div class="product" id="tenor">
+      <div class="level">WEEDN'T 3000</div>
+      <h2>$699</h2>
+      <ol>
+        <li>strong.</li>
+        <li>eficcient.</li>
+        <li>fast.</li>
+        <li>cool.</li>
+      </ol>
+      <button class="btn">Select</button>
+    </div>
+    <div class="product" id="tenor">
+        <div class="level">WEEDN'T 6000</div>
+        <h2>$999</h2>
+        <ol>
+          <li>stronger.</li>
+          <li>more eficcient.</li>
+          <li>faster.</li>
+          <li>cooler.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="tenor">
+        <div class="level">WEED</div>
+        <h2>$2000</h2>
+        <ol>
+          <li>WEED.</li>
+          <li>WEED.</li>
+          <li>WEED.</li>
+          <li>WEED.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer id="footer">
+    <h6>by:Juanusi</h6>
+</footer>
+
+
+
+  </body>
+  </html>
